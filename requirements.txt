@@ -1,0 +1,10 @@
+tweepy
+newspaper
+BeautifulSoup
+goose-extractor
+nltk
+unidecode
+sumy
+gnp
+language_check
+langdetect 
