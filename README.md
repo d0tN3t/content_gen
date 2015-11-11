@@ -17,9 +17,7 @@ INSTALLATION:
 4. Run the Main.py file.
 	
 	```
-	python Main
-
-	```
+	python Main.py```
 
 OUTPUT:
 ==============
