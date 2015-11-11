@@ -21,8 +21,9 @@ INSTALLATION:
 	python -m pip install -r requirements.txt
 	```
 5. Install nltk libraries.
+
     ```
-    python import nltk; nltk.download('punkt'
+    python import nltk; nltk.download()
     ```
 6. Run the Main.py file.
 	
