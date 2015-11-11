@@ -7,14 +7,24 @@ INSTALLATION:
 
 	```
 	git clone https://github.com/abhigenie92/content_gen
+	
 	```
-3. cd into this folder and run the following command from terminal
+3. Install dependencies
+ 	```	
+	sudo apt-get install libxslt-devel libxml2-devel gcc
+	```
+
+4. cd into this folder and run the following command from terminal
 	
 	```
 	cd content_gen
 	python -m pip install -r requirements.txt
 	```
-4. Run the Main.py file.
+5. Install nltk libraries.
+    ```
+    python import nltk; nltk.download('punkt'
+    ```
+6. Run the Main.py file.
 	
 	```
 	python Main.py
