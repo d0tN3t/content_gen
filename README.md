@@ -1,4 +1,4 @@
-# content_gen
+# Tracking and Summarizing Top News Trends
 INSTALLATION:
 ==============
 1. Install Anaconda Python 2.7 64 bit distribution
