@@ -1,6 +1,7 @@
 
 
-**content_gen tracks and summarizes top news trend.** The trends are extracted from twitter and subsequently highest similarity news articles related to the corresponding trends are used for generation articles. The articles are generated with the help of tf-idf.
+**content_gen tracks the top news trends and generates a summary of related news articles.**The top trending topics are extracted with the help twitter's api. For each trending topic, highest similarity news articles from google news website are parsed and translated. The corresponding summaries of articles and key-words are generated with the help of tf-idf.
+
 
 INSTALLATION:
 ==============
@@ -10,15 +11,15 @@ INSTALLATION:
 
 	```
 	git clone https://github.com/abhigenie92/content_gen
-	
+
 	```
 3. Install dependencies
- 	```	
+ 	```
 	sudo apt-get install libxslt-devel libxml2-devel gcc
 	```
 
 4. cd into this folder and run the following command from terminal
-	
+
 	```
 	cd content_gen
 	python -m pip install -r requirements.txt
@@ -29,14 +30,14 @@ INSTALLATION:
     python import nltk; nltk.download()
     ```
 6. Run the Main.py file.
-	
+
 	```
 	python Main.py
 	```
 
 OUTPUT:
 ==============
-The output is appended in "\posts\content.json". 
+The output is appended in "\posts\content.json".
  	{'title': title of post, 'description': summary of given no. of lines, 'dateCreated': date of creation, 'categories': categories of post, 'mt_keywords': keywords of the post}
 
 OTHERS:
