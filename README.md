@@ -1,6 +1,7 @@
 
 
 **content_gen tracks the top news trends and generates a summary of related news articles.**
+
 The top trending topics are extracted with the help of twitter's api. For each trending topic, highest similarity news articles from google news website are parsed and translated. The corresponding summaries of articles and key-words are generated with the help of tf-idf.
 
 
