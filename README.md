@@ -1,4 +1,7 @@
-# Tracking and Summarizing Top News Trends
+
+
+**content_gen tracks and summarizes top news trend.** The trends are extracted from twitter and subsequently highest similarity news articles related to the corresponding trends are used for generation articles. The articles are generated with the help of tf-idf.
+
 INSTALLATION:
 ==============
 1. Install Anaconda Python 2.7 64 bit distribution
