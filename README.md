@@ -39,8 +39,8 @@ INSTALLATION:
 
 OUTPUT:
 ==============
-The output is appended in "\posts\content.json".
- 	{'title': title of post, 'description': summary of given no. of lines, 'dateCreated': date of creation, 'categories': categories of post, 'mt_keywords': keywords of the post}
+The output is appended in `"\posts\content.json"`.
+ ```	{'title': title of post, 'description': summary of given no. of lines, 'dateCreated': date of creation, 'categories': categories of post, 'mt_keywords': keywords of the post}```
 
 OTHERS:
 ==============
